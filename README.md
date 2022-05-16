@@ -11,7 +11,7 @@ Arguemnt4: The output name
 
 Ex. I'm looking to files that had been modified from 5/13/22 5/15/22 in all C:\ and want to save the result in Desktop
 
-```./script "C:\" 5/13/22 5/15/22 C:\Users\cyber\Desktop\Result.csv```
+```./script.ps1 "C:\" 5/13/22 5/15/22 C:\Users\cyber\Desktop\Result.csv```
 
 
 # Ex. RESULT
