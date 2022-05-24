@@ -9,7 +9,7 @@ Argument1: choose the path you want to find all modified files Ex. "C:\Users\Pub
 Argument2 & Argument3: Choose the range date Ex. 5/13/22 5/15/22 
 Arguemnt4: The output name Ex. C:\Users\myuser\Desktop\Result.csv
 
-Ex. I'm looking to files that had been modified from 5/13/22 5/15/22 in all C:\ and want to save the result in Desktop
+Ex. I'm looking for files that had been modified from 5/13/22 5/15/22 in all C:\ and want to save the result in Desktop
 
 ```./script.ps1 "C:\" 5/13/22 5/15/22 C:\Users\cyber\Desktop\Result.csv```
 
