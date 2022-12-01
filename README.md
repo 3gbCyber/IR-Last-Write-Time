@@ -11,7 +11,7 @@ Argument2: Specify the type of your search, just write one of these (LastAccessT
 
 Argument3 & Argument4: Choose the range date M/D/Y Ex. 11/1/22 11/25/22 
 
-Arguemnt4: The output name Ex. C:\temp\Result.csv
+Arguemnt5: The output name Ex. C:\temp\Result.csv
 
 Ex. I'm looking for files that had been modified from 1/12/22 3/12/22 in all C:\Users\ and want to save the result in C:\temp\
 
