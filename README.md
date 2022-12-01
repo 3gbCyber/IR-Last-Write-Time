@@ -1,21 +1,23 @@
 
 # Description
-The script helps you to find all modified files in a range of time. 
+The script helps you to find all modified, accessed, and created files in a range of time. 
 All you need is to run the script with the Administrator's permission.
 
-![IMAGE1](https://i.ibb.co/sjvzMHs/TIME.png)
+![IMAGE1](https://github.com/3gbCyber/IR-Last-Write-Time/blob/main/image.png)
 
-Argument1: choose the path you want to find all modified files Ex. "C:\Users\Public"
+Argument1: Choose the path you want to search to files that modified, accessed, or created Ex. "C:\Users\"
 
-Argument2 & Argument3: Choose the range date Ex. 5/13/22 5/15/22
+Argument2: Specify the type of your search, just write one of these (LastAccessTime, LastWriteTime, CreationTime)
 
-Arguemnt4: The output name Ex. C:\Users\myuser\Desktop\Result.csv
+Argument3 & Argument4: Choose the range date M/D/Y Ex. 11/1/22 11/25/22 
 
-Ex. I'm looking for files that had been modified from 5/13/22 5/15/22 in all C:\ and want to save the result in Desktop
+Arguemnt4: The output name Ex. C:\temp\Result.csv
 
-```./script.ps1 "C:\" 5/13/22 5/15/22 C:\Users\cyber\Desktop\Result.csv```
+Ex. I'm looking for files that had been modified from 1/12/22 3/12/22 in all C:\Users\ and want to save the result in C:\temp\
+
+```./run.ps1 C:\Users\ LastWriteTime 1/12/22 3/12/22 'C:\temp\result.csv'```
 
 
 # Ex. RESULT
-![result](https://i.ibb.co/SJWNjy8/TIME-RESULT.png)
+![result](https://github.com/3gbCyber/IR-Last-Write-Time/blob/main/result.png)
 
